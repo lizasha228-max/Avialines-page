@@ -1,290 +1,317 @@
 html {
-  box-sizing: border-box;
-  background-color: #f4f4f4;
+	box-sizing: border-box;
+	background-color: #f4f4f4;
 }
 
 body {
-  background-color: #f4f4f4 !important;
+	background-color: #f4f4f4 !important;
 }
 
 * *::before *::after {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
+	box-sizing: inherit;
+	padding: 0;
+	margin: 0;
 }
 
 a,
 li {
-  text-decoration: none !important;
-  list-style-type: none;
-  color: white !important;
+	text-decoration: none !important;
+	list-style-type: none;
+	color: white !important;
 }
 
 .menu {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 100px 30px 70px;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 100px 30px 70px;
 }
 
 .header {
-  background-color: #104473;
-  height: 100px;
-  width: 100%;
+	background-color: #104473;
+	height: 100px;
+	width: 100%;
 }
 
 .menu__part1 {
-  font-size: 27px;
+	font-size: 27px;
 }
 
 .menu__part2 {
-  font-size: 15px;
-  padding-top: 10px;
+	font-size: 15px;
+	padding-top: 10px;
 }
 
 .way-form {
-  background-color: #f4f4f4;
-  padding-top: 30px;
-  display: flex !important;
-  gap: 15px;
+	background-color: #f4f4f4;
+	padding-top: 30px;
+	display: flex !important;
+	gap: 15px;
 }
 
 #One-way,
 #Round-Trip {
-  font-size: 17px;
+	font-size: 17px;
 }
 
 .sumboll__and {
-  padding-top: 20px;
-  padding-left: 7px;
-  padding-right: 7px;
+	padding-top: 20px;
+	padding-left: 7px;
+	padding-right: 7px;
 }
 
 .main__container {
-  position: relative;
-  max-width: 1280px;
-  padding-left: 70px;
+	position: relative;
+	max-width: 1280px;
+	padding-left: 70px;
 }
 
 .from__section {
-  margin-top: 30px;
+	margin-top: 30px;
 }
 
 .from-form {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  gap: 15px;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	gap: 15px;
 }
 
 #button-search {
-  background-color: #104473 !important;
-  border-color: #104473 !important;
-  padding: 5px 10px 5px 10px !important;
+	background-color: #104473 !important;
+	border-color: #104473 !important;
+	padding: 5px 10px 5px 10px !important;
 }
 
 #solid-icon {
-  opacity: 50%;
-  position: absolute;
-  padding-left: 350px;
-  padding-top: 15px;
+	opacity: 50%;
+	position: absolute;
+	padding-left: 350px;
+	padding-top: 15px;
 }
 
 #loc-icon {
-  opacity: 50%;
-  position: absolute;
-  padding-left: 150px;
-  padding-top: 15px;
+	opacity: 50%;
+	position: absolute;
+	padding-left: 150px;
+	padding-top: 15px;
 }
 
 .this__icon {
-  display: none !important;
+	display: none !important;
 }
 
 .input-group > .form-control,
 .input-group > .form-select {
-  max-width: 80px;
+	max-width: 80px;
 }
 
 .sumbol-first {
-  padding-top: 20px;
+	padding-top: 20px;
 }
 
 .sumbol-second {
-  padding-left: 7px;
-  padding-top: 20px;
+	padding-left: 7px;
+	padding-top: 20px;
 }
 
 .main__part {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  gap: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: grid;
+	grid-template-columns: 250px 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	gap: 15px;
 }
 
 .dehil-wrap {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 100px);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(6, 100px);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
 }
 
 .dehil-subtitles {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 40px;
-  padding-right: 220px;
-  padding-top: 20px;
-  color: #14539a;
-  font-weight: 700;
-  font-size: 15px;
-  border: 3px solid #ededed;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 40px;
+	padding-right: 220px;
+	padding-top: 20px;
+	color: #14539a;
+	font-weight: 700;
+	font-size: 15px;
+	border: 3px solid #ededed;
 }
 
 .main__wrapper {
-  background-color: white;
-  border: 3px solid #ededed;
-  padding-left: 15px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+	background-color: white;
+	border: 3px solid #ededed;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .title {
-  font-weight: 700;
-  font-size: 20px;
+	font-weight: 700;
+	font-size: 20px;
 }
 
 .subtitle-noStop {
-  color: #14539a;
-  font-weight: 700;
-  font-size: 15px;
+	color: #14539a;
+	font-weight: 700;
+	font-size: 15px;
 }
 
 .price__title {
-  color: #14539a;
-  font-weight: 700;
-  font-size: 15px;
+	color: #14539a;
+	font-weight: 700;
+	font-size: 15px;
 }
 
 .airlanes__title {
-  color: #14539a;
-  font-weight: 700;
-  font-size: 15px;
+	color: #14539a;
+	font-weight: 700;
+	font-size: 15px;
 }
 
 .form-stop {
-  margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .dehil-title {
-  text-align: center;
-  padding-top: 17px;
-  font-weight: 700;
-  font-size: 20px;
-  background-color: white;
-  border: 3px solid #ededed;
+	text-align: center;
+	padding-top: 17px;
+	font-weight: 700;
+	font-size: 20px;
+	background-color: white;
+	border: 3px solid #ededed;
 }
 
-#button-book,#button-book-02,#button-book-03,#button-book-04,#button-book-05,#button-book-06 {
-  background-color: #104473 !important;
-  border-color: #104473 !important;
-  padding: 5px 15px 5px 15px !important;
+#button-book,
+#button-book-02,
+#button-book-03,
+#button-book-04,
+#button-book-05,
+#button-book-06 {
+	background-color: #104473 !important;
+	border-color: #104473 !important;
+	padding: 5px 15px 5px 15px !important;
 }
 
 .dehil__destination-01 {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  border: 3px solid #ededed;
-  padding-left: 35px;
-  padding-right: 25px;
-  padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border: 3px solid #ededed;
+	padding-left: 35px;
+	padding-right: 25px;
+	padding-top: 10px;
 }
 
 .paragraf-one {
-  font-size: 25px;
-  font-weight: 500;
-  text-align: center;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
 }
 
 .paragraf-two {
-  opacity: 50%;
-  font-size: 15px;
-  font-weight: 600;
-  text-align: center;
+	opacity: 50%;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
 }
 
 .price-one {
-  padding-top: 15px;
+	padding-top: 15px;
 }
 
 .flight-01,
-.flight-02,.flight-03,.flight-04,.flight-05,.flight-06 {
-  padding-top: 10px;
-  color: #14539a;
-  font-weight: 400;
-  font-size: 15px;
+.flight-02,
+.flight-03,
+.flight-04,
+.flight-05,
+.flight-06 {
+	padding-top: 10px;
+	color: #14539a;
+	font-weight: 400;
+	font-size: 15px;
 }
 
 .flight-button-01,
-.flight-button-02,.flight-button-03,.flight-button-04,.flight-button-05,.flight-button-06 {
-  text-align: center;
-  padding-right: 10px;
+.flight-button-02,
+.flight-button-03,
+.flight-button-04,
+.flight-button-05,
+.flight-button-06 {
+	text-align: center;
+	padding-right: 10px;
 }
 
 .dehil__destination-02 {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  border: 3px solid #ededed;
-  padding-left: 35px;
-  padding-right: 25px;
-  padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border: 3px solid #ededed;
+	padding-left: 35px;
+	padding-right: 25px;
+	padding-top: 10px;
 }
 
 .dehil__destination-03 {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  border: 3px solid #ededed;
-  padding-left: 35px;
-  padding-right: 25px;
-  padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border: 3px solid #ededed;
+	padding-left: 35px;
+	padding-right: 25px;
+	padding-top: 10px;
 }
 
 .dehil__destination-04 {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  border: 3px solid #ededed;
-  padding-left: 35px;
-  padding-right: 25px;
-  padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border: 3px solid #ededed;
+	padding-left: 35px;
+	padding-right: 25px;
+	padding-top: 10px;
 }
 
 .dehil__destination-05 {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  border: 3px solid #ededed;
-  padding-left: 35px;
-  padding-right: 25px;
-  padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border: 3px solid #ededed;
+	padding-left: 35px;
+	padding-right: 25px;
+	padding-top: 10px;
 }
 
 .dehil__destination-06 {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  border: 3px solid #ededed;
-  padding-left: 35px;
-  padding-right: 25px;
-  padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border: 3px solid #ededed;
+	padding-left: 35px;
+	padding-right: 25px;
+	padding-top: 10px;
 }
 
+.dehil-title {
+	height: 130px;
+	background-color: rgb(128, 100, 157);
+}
+
+.sirock-names {
+	height: 100px;
+	background-color: rgb(109, 124, 149);
+	font-size: 20px;
+}
+.sirock-name-text {
+	font-size: 22px;
+	font-weight: 700;
+}

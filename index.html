@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/f69c8e8774.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Document</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/f69c8e8774.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Flights Search</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
+
 <body>
   <div class="header">
     <div class="menu">
@@ -52,8 +48,10 @@
           <i class="fa-solid fa-location-dot" id="solid-icon"></i>
           <input class="form-control form-control-lg" type="text" placeholder="To" id="to" />
           <i class="fa-solid fa-location-dot" id="loc-icon"></i>
-          <input onkeydown="return false" class="form-control" id="calendar" type="text" onfocus="(this.type='date')" name="depart" placeholder="Depart Date" required />
-          <input onkeydown="return false" class="form-control" id="second-calendar" type="text" onfocus="(this.type='date')" name="return" placeholder="Return Date" required />
+          <input onkeydown="return false" class="form-control" id="calendar" type="text" onfocus="(this.type='date')"
+            name="depart" placeholder="Depart Date" required />
+          <input onkeydown="return false" class="form-control" id="second-calendar" type="text"
+            onfocus="(this.type='date')" name="return" placeholder="Return Date" required />
           <select class="form-select" aria-label="Default select example">
             <option selected>Economy Class</option>
             <option value="1">One</option>
@@ -68,8 +66,12 @@
     <div class="main__part">
       <div class="main__wrapper">
         <div class="filter">
-          <div class="title"><p>Filter</p></div>
-          <div class="subtitle-noStop"><p>No. of Stops</p></div>
+          <div class="title">
+            <p>Filter</p>
+          </div>
+          <div class="subtitle-noStop">
+            <p>No. of Stops</p>
+          </div>
           <div class="form-stop">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" />
@@ -85,7 +87,9 @@
             </div>
           </div>
           <div class="mb-3">
-            <div class="price__title"><p>Price</p></div>
+            <div class="price__title">
+              <p>Price</p>
+            </div>
             <div class="airlines-price">
               <div class="d-flex align-items-center">
                 <div class="me-2">
@@ -109,7 +113,9 @@
         </div>
 
         <div class="airlanes">
-          <div class="airlanes__title"><p>Airlanes</p></div>
+          <div class="airlanes__title">
+            <p>Airlanes</p>
+          </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" />
             <label class="form-check-label">Asiana Airlanes</label>
@@ -146,15 +152,19 @@
       </div>
 
       <div class="dehil">
-        <div class="dehil-title"><p>Dehil Sydney</p></div>
-          <div class="dehil-subtitles">
-            <p>Airlines</p>
-            <p>Departure</p>
-            <p>Duration</p>
-            <p>Arrival</p>
-            <p>Price</p>
+        <div class="dehil-title">
+          <p>AIRPORT </p>
+
+          <div id="dehil-title-id">
+            <div class="sirock-name-text" id="dehil-text-info"> Balice</div>
           </div>
-           <div class="dehil-wrap">
+
+
+        </div>
+        <div class="dehil-subtitles">
+
+        </div>
+        <div class="dehil-wrap">
           <div class="dehil__destination-01">
             <div class="indiGo-01">
               <p class="destination paragraf-one">IndiGo</p>
@@ -206,117 +216,185 @@
             </div>
           </div>
           <div class="dehil__destination-03">
-  <div class="indiGo-03">
-    <p class="destination-03 paragraf-one">IndiGo</p>
-    <p class="6E-03 paragraf-two">6E-2489</p>
-  </div>
-  <div class="departure-destination-03">
-    <p class="number__data-03 paragraf-one">23:30</p>
-    <p class="dehil-paragraf-03 paragraf-two">Dehil</p>
-  </div>
-  <div class="duration-03">
-    <p class="duration__number-03 paragraf-one">18h 55m</p>
-    <p class="non__stop-03 paragraf-two">Non Stop</p>
-  </div>
-  <div class="arrival-03">
-    <p class="arrival-number-03 paragraf-one">18:15</p>
-    <p class="sydney-destination-03 paragraf-two">Sydney</p>
-  </div>
-  <div class="price-03">
-    <p class="price-one-03 paragraf-one">$980</p>
-  </div>
-  <div class="flight-button-03">
-    <button class="btn btn-primary me-md-2" type="button" id="button-book-03">Book</button>
-    <p class="flight-03">Flight Details</p>
-  </div>
-</div>
+            <div class="indiGo-03">
+              <p class="destination-03 paragraf-one">IndiGo</p>
+              <p class="6E-03 paragraf-two">6E-2489</p>
+            </div>
+            <div class="departure-destination-03">
+              <p class="number__data-03 paragraf-one">23:30</p>
+              <p class="dehil-paragraf-03 paragraf-two">Dehil</p>
+            </div>
+            <div class="duration-03">
+              <p class="duration__number-03 paragraf-one">18h 55m</p>
+              <p class="non__stop-03 paragraf-two">Non Stop</p>
+            </div>
+            <div class="arrival-03">
+              <p class="arrival-number-03 paragraf-one">18:15</p>
+              <p class="sydney-destination-03 paragraf-two">Sydney</p>
+            </div>
+            <div class="price-03">
+              <p class="price-one-03 paragraf-one">$980</p>
+            </div>
+            <div class="flight-button-03">
+              <button class="btn btn-primary me-md-2" type="button" id="button-book-03">Book</button>
+              <p class="flight-03">Flight Details</p>
+            </div>
+          </div>
 
-<div class="dehil__destination-04">
-  <div class="indiGo-04">
-    <p class="destination-04 paragraf-one">IndiGo</p>
-    <p class="6E-04 paragraf-two">6E-2489</p>
-  </div>
-  <div class="departure-destination-04">
-    <p class="number__data-04 paragraf-one">23:30</p>
-    <p class="dehil-paragraf-04 paragraf-two">Dehil</p>
-  </div>
-  <div class="duration-04">
-    <p class="duration__number-04 paragraf-one">18h 55m</p>
-    <p class="non__stop-04 paragraf-two">Non Stop</p>
-  </div>
-  <div class="arrival-04">
-    <p class="arrival-number-04 paragraf-one">18:15</p>
-    <p class="sydney-destination-04 paragraf-two">Sydney</p>
-  </div>
-  <div class="price-04">
-    <p class="price-one-04 paragraf-one">$980</p>
-  </div>
-  <div class="flight-button-04">
-    <button class="btn btn-primary me-md-2" type="button" id="button-book-04">Book</button>
-    <p class="flight-04">Flight Details</p>
-  </div>
-</div>
+          <div class="dehil__destination-04">
+            <div class="indiGo-04">
+              <p class="destination-04 paragraf-one">IndiGo</p>
+              <p class="6E-04 paragraf-two">6E-2489</p>
+            </div>
+            <div class="departure-destination-04">
+              <p class="number__data-04 paragraf-one">23:30</p>
+              <p class="dehil-paragraf-04 paragraf-two">Dehil</p>
+            </div>
+            <div class="duration-04">
+              <p class="duration__number-04 paragraf-one">18h 55m</p>
+              <p class="non__stop-04 paragraf-two">Non Stop</p>
+            </div>
+            <div class="arrival-04">
+              <p class="arrival-number-04 paragraf-one">18:15</p>
+              <p class="sydney-destination-04 paragraf-two">Sydney</p>
+            </div>
+            <div class="price-04">
+              <p class="price-one-04 paragraf-one">$980</p>
+            </div>
+            <div class="flight-button-04">
+              <button class="btn btn-primary me-md-2" type="button" id="button-book-04">Book</button>
+              <p class="flight-04">Flight Details</p>
+            </div>
+          </div>
 
-<div class="dehil__destination-05">
-  <div class="indiGo-05">
-    <p class="destination-05 paragraf-one">IndiGo</p>
-    <p class="6E-05 paragraf-two">6E-2489</p>
-  </div>
-  <div class="departure-destination-05">
-    <p class="number__data-05 paragraf-one">23:30</p>
-    <p class="dehil-paragraf-05 paragraf-two">Dehil</p>
-  </div>
-  <div class="duration-05">
-    <p class="duration__number-05 paragraf-one">18h 55m</p>
-    <p class="non__stop-05 paragraf-two">Non Stop</p>
-  </div>
-  <div class="arrival-05">
-    <p class="arrival-number-05 paragraf-one">18:15</p>
-    <p class="sydney-destination-05 paragraf-two">Sydney</p>
-  </div>
-  <div class="price-05">
-    <p class="b-price-one-05 paragraf-one">$980</p>
-  </div>
-  <div class="flight-button-05">
-    <button class="btn btn-primary me-md-2" type="button" id="button-book-05">Book</button>
-    <p class="flight-05">Flight Details</p>
-  </div>
-</div>
+          <div class="dehil__destination-05">
+            <div class="indiGo-05">
+              <p class="destination-05 paragraf-one">IndiGo</p>
+              <p class="6E-05 paragraf-two">6E-2489</p>
+            </div>
+            <div class="departure-destination-05">
+              <p class="number__data-05 paragraf-one">23:30</p>
+              <p class="dehil-paragraf-05 paragraf-two">Dehil</p>
+            </div>
+            <div class="duration-05">
+              <p class="duration__number-05 paragraf-one">18h 55m</p>
+              <p class="non__stop-05 paragraf-two">Non Stop</p>
+            </div>
+            <div class="arrival-05">
+              <p class="arrival-number-05 paragraf-one">18:15</p>
+              <p class="sydney-destination-05 paragraf-two">Sydney</p>
+            </div>
+            <div class="price-05">
+              <p class="b-price-one-05 paragraf-one">$980</p>
+            </div>
+            <div class="flight-button-05">
+              <button class="btn btn-primary me-md-2" type="button" id="button-book-05">Book</button>
+              <p class="flight-05">Flight Details</p>
+            </div>
+          </div>
 
-<div class="dehil__destination-06">
-  <div class="indiGo-06">
-    <p class="destination-06 paragraf-one">IndiGo</p>
-    <p class="6E-06 paragraf-two">6E-2489</p>
-  </div>
-  <div class="departure-destination-06">
-    <p class="number__data-06 paragraf-one">23:30</p>
-    <p class="dehil-paragraf-06 paragraf-two">Dehil</p>
-  </div>
-  <div class="duration-06">
-    <p class="duration__number-06 paragraf-one">18h 55m</p>
-    <p class="non__stop-06 paragraf-two">Non Stop</p>
-  </div>
-  <div class="arrival-06">
-    <p class="arrival-number-06 paragraf-one">18:15</p>
-    <p class="sydney-destination-06 paragraf-two">Sydney</p>
-  </div>
-  <div class="price-06">
-    <p class="price-one-06 paragraf-one">$980</p>
-  </div>
-  <div class="flight-button-06">
-    <button class="btn btn-primary me-md-2" type="button" id="button-book-06">Book</button>
-    <p class="flight-06">Flight Details</p>
-  </div>
-</div>
+          <div class="dehil__destination-06">
+            <div class="indiGo-06">
+              <p class="destination-06 paragraf-one">IndiGo</p>
+              <p class="6E-06 paragraf-two">6E-2489</p>
+            </div>
+            <div class="departure-destination-06">
+              <p class="number__data-06 paragraf-one">23:30</p>
+              <p class="dehil-paragraf-06 paragraf-two">Dehil</p>
+            </div>
+            <div class="duration-06">
+              <p class="duration__number-06 paragraf-one">18h 55m</p>
+              <p class="non__stop-06 paragraf-two">Non Stop</p>
+            </div>
+            <div class="arrival-06">
+              <p class="arrival-number-06 paragraf-one">18:15</p>
+              <p class="sydney-destination-06 paragraf-two">Sydney</p>
+            </div>
+            <div class="price-06">
+              <p class="price-one-06 paragraf-one">$980</p>
+            </div>
+            <div class="flight-button-06">
+              <button class="btn btn-primary me-md-2" type="button" id="button-book-06">Book</button>
+              <p class="flight-06">Flight Details</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+  <div>
+    <h1>HELLO TITLE</h1>
+  </div>
 </body>
+
 </html>
 <script src="script.js"></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-  crossorigin="anonymous"
-></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+<script>
+
+  document.addEventListener("DOMContentLoaded", (event) => {
+    const arrTitleName = ['Airlines', 'Departure', 'Duration', 'Arrival', 'Price'];
+
+    const MOCK_DATA = {
+      dataTitle: arrTitleName
+    };
+
+    const objFromServer = {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      'titleAirport': ['Airlines', 'Departure', 'Duration', 'Arrival', 'Price'],
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496"
+        }
+      },
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    }
+
+
+    function showTitleNames() {
+
+      const apearT =
+        `
+        <div >
+             <p>HELLO TITLE</p>
+        </div> 
+          `
+
+
+      const defaultBlock = document.getElementById("dehil-title-id");
+      defaultBlock.classList.add("sirock-names");
+
+      for (let i = 0; i < arrTitleName.length; i++) {
+        defaultBlock.textContent += arrTitleName[i] + " "
+      }
+    }
+
+
+    setTimeout(() => {
+      showTitleNames()
+    }, 2500)
+    console.log("DATA", MOCK_DATA.dataTitle);
+  });
+
+
+
+</script>
